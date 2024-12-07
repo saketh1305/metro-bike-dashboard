@@ -1,0 +1,55 @@
+.route-stats-tooltip {
+  position: absolute;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-width: 200px;
+}
+
+.tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* .traffic-indicator {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+} */
+
+.traffic-indicator.low {
+  background-color: green;
+}
+
+.traffic-indicator.moderate {
+  background-color: orange;
+}
+
+.traffic-indicator.high {
+  background-color: red;
+}
+
+.route-stats-tooltip h4 {
+  margin: 0 0 8px 0;
+}
+
+.route-stats-tooltip p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.traffic-indicator {
+  margin-top: 5px;
+}

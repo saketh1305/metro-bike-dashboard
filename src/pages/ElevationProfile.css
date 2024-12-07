@@ -1,0 +1,34 @@
+.elevation-chart-card {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .elevation-card-title {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .close-chart-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .close-chart-button:hover {
+    background-color: #e55a5a;
+  }
+  

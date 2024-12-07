@@ -1,0 +1,96 @@
+.landscape-container {
+  width: 100%;
+  height: 200px; /* Thin band height */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.landscape {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the thin band properly */
+  animation: fadeIn 2s ease-in-out;
+}
+
+.landing {
+  text-align: center;
+  margin-top: 2rem; /* Space between landscape and heading */
+}
+
+.landing h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Layout for the content section */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Left Gallery Section */
+.gallery-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust height for the gallery */
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+
+/* Animation for fading in and out */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Right Description Section */
+.description-section {
+  flex: 1;
+  padding: 1rem;
+}
+
+.description-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.description-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+}

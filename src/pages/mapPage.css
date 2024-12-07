@@ -1,0 +1,174 @@
+.map-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+
+  /* Ensure the page does not overlap the navbar */
+.deck-map-page {
+  margin-top: 60px; /* Adjust this based on your navbar's height */
+  width: 100%;
+  height: calc(100vh - 60px); /* Subtract navbar height from the viewport */
+}
+
+.deckgl-container {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.icon-layer {
+  animation: bounce 2s infinite;
+}
+
+
+.search-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.search-input {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.search-panel {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.search-panel h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
+.selection-card {
+  position: absolute;
+  top: 270px;
+  left: 10px;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 250px;
+}
+
+.selection-card h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.selection-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+.selection-title {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.selection-item {
+  margin: 10px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.undo-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.undo-button:hover {
+  background: #e64a19;
+}
+
+
+.elevation-chart-card {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  /* height: 300px; */
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.elevation-card-title {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.close-chart-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  float: right;
+}
+
+.close-chart-button:hover {
+  background-color: #e55a5a;
+}
