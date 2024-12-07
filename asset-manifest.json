@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metro-bike-dashboard/static/css/main.614ce28b.css",
+    "main.js": "/metro-bike-dashboard/static/js/main.152cdae5.js",
+    "static/js/879.4d0d5cf7.chunk.js": "/metro-bike-dashboard/static/js/879.4d0d5cf7.chunk.js",
+    "static/js/453.10fca8b0.chunk.js": "/metro-bike-dashboard/static/js/453.10fca8b0.chunk.js",
+    "static/media/la_image.jpg": "/metro-bike-dashboard/static/media/la_image.bca0d6cfbfd538f0e662.jpg",
+    "static/media/gallery1.webp": "/metro-bike-dashboard/static/media/gallery1.27faed959f222bed0b23.webp",
+    "static/media/gallery2.jpg": "/metro-bike-dashboard/static/media/gallery2.18899f7acf12ce63bf16.jpg",
+    "static/media/gallery3.webp": "/metro-bike-dashboard/static/media/gallery3.c8b36a2766c684e3b188.webp",
+    "static/media/gallery4.jpg": "/metro-bike-dashboard/static/media/gallery4.39b92ba98cbe85907bcb.jpg",
+    "index.html": "/metro-bike-dashboard/index.html",
+    "main.614ce28b.css.map": "/metro-bike-dashboard/static/css/main.614ce28b.css.map",
+    "main.152cdae5.js.map": "/metro-bike-dashboard/static/js/main.152cdae5.js.map",
+    "879.4d0d5cf7.chunk.js.map": "/metro-bike-dashboard/static/js/879.4d0d5cf7.chunk.js.map",
+    "453.10fca8b0.chunk.js.map": "/metro-bike-dashboard/static/js/453.10fca8b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.614ce28b.css",
+    "static/js/main.152cdae5.js"
+  ]
+}
