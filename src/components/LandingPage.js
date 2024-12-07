@@ -37,11 +37,12 @@ const LandingPage = () => {
         </div>
         {/* Right Description */}
         <div className="description-section">
-          <h2>Why Use This Dashboard?</h2>
+          <h2>Tailoring bike routes for today's urban rider</h2>
           <p>
-            This dashboard helps you analyze trends in metro bike-sharing data, including trip duration, popular routes,
-            and peak usage times. Explore insights that can optimize bike-sharing operations and improve urban
-            transportation planning.
+          Our dashboard designs routes that address the real challenges of urban biking, 
+          ensuring each journey is informed, safe, and tailored to the complexities of city 
+          travel. This user-focused tool goes beyond business analytics to enhance every cyclist's 
+          experience.
           </p>
         </div>
       </div>
